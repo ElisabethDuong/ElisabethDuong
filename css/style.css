@@ -14,3 +14,88 @@
     font-weight: normal;
 }
 
+body, h1, h2, h3, p { /* ou utiliser un fichier reset.css */ 
+    margin: 0;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+h1, h2, h3, .xp {
+    font-weight: bold;
+}
+
+.primary-block {
+    background-color: #0475ba;
+    color: white;
+}
+
+.primary-block a:link, .primary-block a:visited {
+    color: white;
+}
+
+.primary-block a:hover {
+    color: orange;
+}
+
+.secondary-block h2, .secondary-block h3 {
+    color: #0475ba;
+}
+
+nav {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    padding: 0px 32px; /* top-bottom left-right */ 
+}
+
+header, section, footer {
+    padding: 40px;
+}
+
+/* 
+    Style du header 
+*/ 
+
+header {
+    text-align: center;
+}
+
+header h2 {
+    padding: 16px;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+/* 
+    Style des sections 
+*/ 
+
+section h3 {
+    text-align: center;
+}
+
+.experience-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-without-points {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* 
+    Style du footer 
+*/ 
+
+.footer-list {
+    list-style: none;
+}
+
+i {
+    margin-right: 8px;
+}
